@@ -11,8 +11,6 @@ fun main(){
         in 15 ..17 -> println("Sua categoria é Juvenil!")
         in 18 ..25 -> println("Sua categoria é Adulto!")
         else -> println("Infelizmente não temos categoria para você.")
-
-
     }
 
 }

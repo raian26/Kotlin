@@ -6,10 +6,11 @@
 fun main() {
     var soma = 0.0
     var aux: Int = 0
-
+    val media:Int = 0
    do{ println("Para começarmos digite um número para ser somado, para sair digite um valor negativo: ")
        var n: Int = readLine()!!.toInt()
         soma += n
-    aux++} while (n>=0)
-    var media = soma / aux
+    aux++
+       var media = soma / aux} while (n>=0)
+
     println("A soma é: $soma e a média é $media, e o total de valores lidos foi de: $aux ")}
