@@ -14,7 +14,7 @@ fun main() {
     do {
         println(
             "Para começarmos informe qual ação você deseja fazer:\n 1- Incluir produtos no estoque " +
-                    "\n 2- Remover produto do estoque\n 3- Atualizar dados do estoque\n 4- Listar estoque ou \n 5- Sair"
+                    "\n 2- Remover produto do estoque\n 3- Atualizar dados do estoque\n 4- Listar es0toque \n 5- Sair"
         )
         var op = readln().toInt()
         when (op) {
