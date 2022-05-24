@@ -12,6 +12,7 @@ class Avioes(
     constructor(peso: Int, qtetripulantes: Int, autonomia: Int, tremdepouso: Boolean, tipo: String) :
             this(peso, qtetripulantes, autonomia, tremdepouso) {
         this.tipo = tipo
+
     }
 
     fun listar() {
