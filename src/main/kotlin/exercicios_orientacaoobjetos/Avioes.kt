@@ -1,3 +1,5 @@
+package exercicios_orientacaoobjetos
+
 class Avioes(
     var peso: Int,
     var qtetripulantes: Int,

@@ -9,27 +9,30 @@ Ao instanciar a classe cliente na função main(), não esquecer de colocar dent
  */
 fun main() {
     var compra: String
-    var client1nome:String
+    var client1nome: String
     var client1 = Lojaclientes("a")
-    while(true){
-    println("Olá Bem vindo a loja!!!\n")
-       println("Para começarmos me informe seu nome para cadastro:\n")
-        client1nome= readln()
-        try{
-        client1= Lojaclientes(client1nome)
+    println("\n###Olá Bem vindo a loja###!!!")
+    while (true) {
+        try {
+            println("\nPara começarmos me informe seu nome para cadastro:")
+            client1nome = readln()
+            client1 = Lojaclientes(client1nome)
             break
-     } catch (e: Exception) {
-        println(e.message) }}
+        } catch (e: Exception) {
+            println(e.message)
+        }
+    }
 
     println("\n$client1nome gostaria de cadastrar seu endereço e telefone?(S/N)")
     var resp = readln()
     if (resp == "S") {
         println("\nMe informe o seu endereço completo:")
         var endclient1 = readln()
-         client1 = Lojaclientes(client1nome, endclient1, "")
+        client1 = Lojaclientes(client1nome, endclient1, "")
         println(
             "\nEndereço cadastrado com sucesso!!!\n" +
-                    "Agora me informe seu telefone ou aperte enter para não informar:")
+                    "Agora me informe seu telefone ou aperte enter para não informar:"
+        )
         var telclient1 = readln()
         client1 = Lojaclientes(client1nome, endclient1, telclient1)
         println("Telefone cadastrado com sucesso!!!")
@@ -37,8 +40,8 @@ fun main() {
 
     do {
         println(
-            "\n###MENU###\nMe iforme o que deseja fazer:\n1-Adicionar compra\n"+
-                    "2-Remover compra\n3-Enviar compra\n4-Verificar a lista de compras\n"+
+            "\n###MENU###\nMe iforme o que deseja fazer:\n1-Adicionar compra\n" +
+                    "2-Remover compra\n3-Enviar compra\n4-Verificar a lista de compras\n" +
                     "5- Para sair"
         )
         var op = readln().toInt()

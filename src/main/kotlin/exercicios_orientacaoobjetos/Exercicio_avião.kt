@@ -1,6 +1,8 @@
+import exercicios_orientacaoobjetos.Avioes
+
 fun main(){
-    val aviao1=Avioes(6500,130,110000,true)
-    val aviao2=Avioes(2000,3,3500,true,"Avião particular")
+    val aviao1= Avioes(6500,130,110000,true)
+    val aviao2= Avioes(2000,3,3500,true,"Avião particular")
     aviao1.listar()
     println()
     aviao2.listar()

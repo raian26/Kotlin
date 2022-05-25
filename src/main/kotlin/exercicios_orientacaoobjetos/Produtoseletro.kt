@@ -1,3 +1,5 @@
+package exercicios_orientacaoobjetos
+
 class Produtoseletro(
     var tipo:String,
     var marca:String,

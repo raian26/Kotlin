@@ -1,3 +1,5 @@
+package exercicios_orientacaoobjetos
+
 class Clientes(
     var nome: String, var email: String, var cpf:String,
     var saldo: Double
