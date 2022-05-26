@@ -1,4 +1,4 @@
-import exercicioencap.Lojaclientes
+import exercicio_testeUnit.exercicioscomTDD.Lojaclientes
 
 /*Cria uma Classe Cliente, contendo os atributos encapsulados, um construtor padrão e pelo me
 nos mais duas opções de construtores conforme sua percepção, com os atributos: nome (String), endereço
