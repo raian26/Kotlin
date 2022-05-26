@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="exercicio_testeUnit.CalculadoraTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-05-26T17:44:39" hostname="DESKTOP-0MNRR87" time="0.069">
+  <properties/>
+  <testcase name="subtracaoTest()" classname="exercicio_testeUnit.CalculadoraTest" time="0.045"/>
+  <testcase name="multi()" classname="exercicio_testeUnit.CalculadoraTest" time="0.002"/>
+  <testcase name="divTeste()" classname="exercicio_testeUnit.CalculadoraTest" time="0.003"/>
+  <testcase name="raiz2Teste()" classname="exercicio_testeUnit.CalculadoraTest" time="0.003"/>
+  <testcase name="potTeste()" classname="exercicio_testeUnit.CalculadoraTest" time="0.002"/>
+  <testcase name="somaTest()" classname="exercicio_testeUnit.CalculadoraTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

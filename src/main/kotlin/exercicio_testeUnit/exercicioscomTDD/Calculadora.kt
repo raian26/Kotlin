@@ -1,4 +1,4 @@
-package exercicio_testeUnit
+package exercicio_testeUnit.exercicioscomTDD
 import kotlin.math.pow
 import kotlin.math.sqrt
 
